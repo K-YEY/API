@@ -37,19 +37,15 @@ To set up the project locally, follow these steps:
     cp .env.example .env
     ```
 
-4. Generate application key:
 
-    ```bash
-    php artisan key:generate
-    ```
 
-5. Run migrations to create the necessary database tables:
+4. Run migrations to create the necessary database tables:
 
     ```bash
     php artisan migrate
     ```
 
-6. Serve the application:
+5. Serve the application:
 
     ```bash
     php artisan serve
@@ -106,8 +102,7 @@ To set up the project locally, follow these steps:
           "email": "john@example.com",
           "created_at": "2022-04-03T10:00:00.000000Z",
           "updated_at": "2022-04-03T10:00:00.000000Z"
-      },
-      "token": "<access_token>"
+      }
   }
   ```
 
@@ -138,6 +133,3 @@ The API returns appropriate HTTP status codes and error messages for various sce
 
 The User Management API provides basic functionalities for user registration, login, and retrieval of user details. It can be further extended and customized to meet specific project requirements.
 
----
-
-This documentation outlines the project setup, API endpoints, request/response formats, and error handling strategies. Customize it further as needed for your specific project requirements.
